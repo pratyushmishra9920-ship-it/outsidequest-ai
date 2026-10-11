@@ -2,16 +2,24 @@
 
 ### The world is the interface.
 
-**OutsideQuest** is a local-AI-powered outdoor discovery application that encourages people to put their phones away and explore the world through guided observation missions.
+OutsideQuest is a local-AI-powered outdoor discovery application that encourages people to put their phones away and explore the world through guided observation missions.
 
 Instead of scrolling, users investigate sounds, light and shadows, urban nature, and overlooked details in their surroundings.
 
+![OutsideQuest main dashboard](screenshots/outsidequest-main.png)
+
 ## ✨ Features
 
-- **AI-generated missions:** Create outdoor investigations based on the selected mission type, environment, and available time.
-- **Local AI:** Generate missions using Ollama and the `qwen3.5:4b` model.
-- **Discovery journal:** Record observations and save field notes locally in `discoveries.json`.
-- **Follow-up investigations:** Turn a field observation into new hypotheses and a follow-up experiment.
+- **AI-generated missions:** Generate outdoor investigations based on the selected mission type, environment, and available time.
+
+- **Local AI:** Generate missions using Ollama and the Qwen 3.5 4B model.
+
+- **Discovery journal:** Record observations and save field notes locally in `discoveries.json`. Notes persist on the device running the application.
+
+  ![OutsideQuest discovery journal](screenshots/discovery-journal.png)
+
+- **Follow-up investigations:** Turn an observation into new hypotheses and a follow-up experiment.
+
 - **Safety-focused guidance:** Encourage direct observation without requiring special equipment or photography.
 
 ## 🛠️ Tech Stack
